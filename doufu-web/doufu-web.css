@@ -1,0 +1,438 @@
+*{
+    margin:0 auto;
+    padding:0;
+    font-size:0.24rem;
+    color:#999;
+}
+a {
+    text-decoration:none;
+}
+ul{
+    list-style: none;
+}
+
+html{
+    font-size:-webkit-calc((100vw / 750) * 100);
+    font-family:"微软雅黑";
+       }
+/* page-home */
+.page-home{
+    background:#f6f7f9;
+    box-sizing:border-box;
+}
+/* page-ht */
+.page-hd{
+    height:0.9rem;
+    background:#f6f7f9;
+    display: flex;
+    font-size:0.28rem;
+    padding:0.2rem 0.28rem 0.2rem 0.38rem;
+}
+.icon img{
+    width:0.4rem;
+    height:0.4rem;
+}
+.icon a{
+    width:1rem;
+}
+.icon .text-xs{
+    display:inline-block;
+}
+.icon{
+    display: flex;
+    margin:0;
+    line-height:0.9rem;
+    text-align:center;
+    padding-top:0.2rem;
+}
+.logo{
+    width:1.36rem;
+    margin-top:0.3rem;
+    margin-left:-1.5rem;
+    
+    
+}
+/* banner */
+.banner{
+    width:7rem;
+    height:3.5rem;
+    background: bisque;
+    margin:0 0.3rem ;
+}
+.swiper-container {
+    width: 7rem;
+    height: 3.5rem;
+}  
+.swiper-slide{
+    width: 7rem;
+    height: 3.5rem;
+}
+.swiper-slide img{
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-container .swiper-pagination{
+    position: absolute;
+    left:0; 
+    top:3rem;
+    text-align:center;
+    width:100%;
+}
+.swiper-container .swiper-pagination-bullet{
+    width:0.1rem;
+    height:0.1rem;
+    margin:0 4px;
+    border-radius: 100%;
+    display:inline-block;
+    background:#000;
+    background-color:blue;
+}
+/* search-bar */
+.search-bar{
+    width: 7rem;;
+    height:0.64rem;
+    background: #ffffff;
+    margin-top:0.12rem;
+    font-size:0.26rem;
+    text-align: center;
+    line-height:0.62rem;
+}
+/* nav */
+.nav{
+    width:100%;
+    height:1.66rem;
+    margin-top:0.12rem;
+    margin-bottom:0.12rem;
+    background:#ffffff;
+    display:flex;
+    flex-direction:row;
+    font-size:0.24rem;
+   
+}
+.nav-icon{
+    width:0.64rem;
+    height:0.64rem;
+    margin-top:0.3rem;
+    margin-bottom:0.1rem;
+    
+}
+.nav-item{
+    width:100%;
+    height:100%;
+    background:white;
+    text-decoration-style: none;
+    display: flex;
+    flex-direction: column;
+    text-align:center;
+    color:black;
+}
+/* panel耽美推荐 */
+.panel{
+    width:100%;
+    background:white;
+    padding:0 0.3rem;
+    margin-bottom:0.2rem;
+
+}
+ .panel-hd{
+    height:10%;
+    line-height:1;
+    padding-top:0.3rem;
+    display:flex;
+
+} 
+.panel-tt{
+   float:left;
+   font-size:0.24rem;
+   font-weight:normal;
+}
+h3{
+    margin-left:-0.1rem;
+}
+.panel-ft{
+    display: block;
+    line-height: 0.8rem;
+    text-align:center;
+    font-size:0.28rem;
+    color:#999;
+
+}
+.book .book-mn{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    text-align:left;
+}
+
+.book-list{
+    height:100%;
+}
+.book{
+    padding:0.3rem 0;
+    height:1.5rem;
+    border-bottom:0.1px solid grey;  
+    clear: left;
+}
+.book-tt{
+    font-size:0.3rem;
+    font-weight:normal;
+    margin:0;
+    color:black;
+}
+.book-ct{
+    margin:0;
+}
+
+.book-sd{
+    float:left;
+}
+.book-meta{
+    font-size:0.22rem;
+    margin:0;
+
+  
+}
+.book-img{
+    height:1.5rem;
+    width:1.8rem;
+    margin-right:0.2rem;
+}
+
+/* .book-mn{
+    width:6rem;
+    height:1.5rem;
+    padding-right:0.3rem;
+} */
+.book-tags{
+    float:right;
+}
+.tag{
+    border:0.5px solid #c9c9c9;
+    background-color:#f4f4f4;
+    padding:0 0.08rem;
+    border-radius:0.08rem;
+    max-width:8rem;
+}
+.book-avatar{
+    width:0.3rem;
+    height:0.3rem;
+    border-radius: 50%;
+    vertical-align: middle;
+    
+}
+.fl{
+    display: inline;
+}
+
+.book-list-h .corner{
+    position:absolute;
+    display: inline-block;
+    transform: rotate(-45deg);
+    left:-0.1rem;
+    top:0;
+    width:0.6rem;
+    height:0.3rem;
+    text-align: center;
+    overflow: hidden;
+    background-color:#6dd4d5;
+    color:#fff; 
+} 
+
+
+/* panel新书推荐 */
+
+.book-list .book-sd{
+    position: relative;
+    overflow: hidden;
+}
+.book-list .corner-1{
+    position:absolute;
+    display: inline-block;
+    transform: rotate(-45deg);
+    left:-0.1rem;
+    top:0;
+    width:0.6rem;
+    height:0.3rem;
+    text-align: center;
+    overflow: hidden;
+    background-color:#ff4a64;
+    color:#fff; 
+} 
+
+/* panel排行榜*/
+.panel-tab{
+    display: flex;
+    margin-right: 0.2rem;
+}
+.tab{
+    margin-top:0.3rem;
+}
+.tab-item{
+    margin:0rem;
+    width:25%;
+    font-size:0.24rem; 
+    border-right:1px solid #fe6e6e;
+    color:#fe6e6e;
+    text-align: center;   
+}
+.panel-tab .tab-item{
+    padding:0 0.3rem;
+}
+
+.tab-nav{
+    display:flex;
+    width:6.8rem;
+    height:0.58rem;
+    color:#fe6e6e;
+    line-height:0.58rem;
+    border-radius:0.08rem;
+    border:1px solid #fe6e6e;
+    margin-top:0.3rem;
+    margin-left:0rem;
+    
+}
+.book-list-h{
+    padding:0.18rem 0;
+    white-space: nowrap;
+    overflow-x:scroll;
+}
+.book-v{
+    display:inline-block;
+    vertical-align: top;
+    width:2.1rem;
+    height:1.56rem;
+}
+.book-hd{
+    width:100%;
+    height:1.56rem;
+    text-align: center;
+    border-radius: 0.06rem;
+        
+}
+.corner-2{
+    position:absolute;
+    left:0;
+    top:0;
+    width:0.35rem;
+    height:0.35rem;
+    text-align:center;
+    line-height:0.35rem;
+    color:#fff;
+    background-color: #ff4a64;
+
+}
+
+
+
+/* panel排行榜 */
+.book-list-h{
+    border-bottom:0.1px solid grey;
+}
+.book-list-h .book-hd{
+    position: relative;
+    overflow:hidden;
+}
+.book-v{
+    width:2.1rem;
+    height:2.5rem;
+    padding:0rem;
+    margin:0;
+}
+
+.book-v .book-tt{
+    font-size:0.3rem;
+}
+.book-v .book-img{
+    margin-right:0.1rem;
+    margin:0 -100%;
+    height:100%;
+    width:100%;
+}
+.tab-nav .tab-item.on{
+    background-color: #fe6e6e;
+    color:#fff;
+}
+
+/* panel最新更新 */
+.book-list-static li{
+    padding:0.22rem 0;
+    text-align:left;
+}
+.fr{
+    float:right !important;
+    margin-right:0.5rem;
+}
+.fr h4{
+    float:left;
+}
+.fr tags{
+    display: inline-block;
+}
+
+/* page-ft */
+.page-ft{
+    width:100%;
+    margin-top:0.3rem;
+    text-align:center;
+    background:#ffffff;
+}
+.footer-link{
+    font-size:0.28rem;
+}
+.footer-link a{
+    line-height:0.73rem;
+    display: inline-block;
+    width:1.66rem;
+}
+/* download */
+
+a{
+    text-decoration: none;
+ }
+ 
+ .download{
+     position: relative;
+     height:1.65rem;
+     display:block;
+     padding:0 0.35rem;
+     text-align:left;
+     background: #fff;
+ 
+ }
+ 
+ 
+ .download-icon{
+     width:1.12rem;
+     height:1.12rem;
+     float:left;
+     margin-top:0.24rem;
+     margin-right:0.24rem;
+ }
+ .download-tt{
+     font-size:0.38rem;
+     padding-top:0.45rem;
+     padding-bottom:0.15rem;
+     color: #fe6e6e;
+     font-weight:norma;     
+ }
+ .download-ct{
+     color:#999;
+     font-size:0.28rem;
+     line-height: 1;
+     
+ }
+ .download-btn{
+     position:absolute;
+     bottom:0.4rem;
+     right:0.34rem;
+     width:1.44rem;
+     height:0.74rem;
+     border:1px solid ;
+     border-radius: 0.37rem;
+     text-align:center;
+     color:#fe6e6e; 
+     line-height:0.74rem;
+     font-size:0.36rem;
+ } 
