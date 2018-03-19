@@ -1,0 +1,35 @@
+{
+  "name": "dev",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --inline --env.dev",
+    "build": "webpack --env.build"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer-loader": "^3.2.0",
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.0.0",
+    "babel-preset-env": "^1.5.2",
+    "css-loader": "^0.28.4",
+    "extract-text-webpack-plugin": "^2.1.2",
+    "file-loader": "^0.11.2",
+    "html-loader": "^0.4.5",
+    "html-webpack-inline-source-plugin": "^0.0.9",
+    "html-webpack-plugin": "^2.28.0",
+    "mockjs": "^1.0.1-beta3",
+    "node-sass": "^4.5.3",
+    "postcss-loader": "^2.0.6",
+    "sass-loader": "^6.0.5",
+    "script-ext-html-webpack-plugin": "^1.8.8",
+    "scss-loader": "^0.0.1",
+    "style-loader": "^0.18.2",
+    "url-loader": "^0.5.8",
+    "webpack": "^2.6.1",
+    "webpack-cli": "^2.0.12",
+    "webpack-dev-server": "^2.4.5"
+  }
+}
